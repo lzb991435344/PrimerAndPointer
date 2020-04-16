@@ -32,6 +32,7 @@ main()
 	** value we want to locate) and search the array.
 	*/
 	strcpy( key.key, "value" );
+	//比较及结构体中的key的大小
 	ans = bsearch( &key, array, 50, sizeof( Record ),
 	    r_compare );
 

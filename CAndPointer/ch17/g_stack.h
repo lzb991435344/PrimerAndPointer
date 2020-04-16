@@ -1,7 +1,7 @@
 /*
 ** GENERIC implementation of a stack with a static array.  The array
 ** size is given as one of the arguments when the stack is
-** instantiated.
+** instantiated.//
 */
 #include <assert.h>
 

@@ -16,6 +16,7 @@ strdup( char const *string )
 	** Ask for enough memory to hold the string and its
 	** terminating NUL byte.
 	*/
+	//‘\0’
 	new_string = malloc( strlen( string ) + 1 );
 
 	/*
